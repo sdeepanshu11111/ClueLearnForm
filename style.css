@@ -10,6 +10,9 @@
 
 
 
+
+
+
 nav {
   width: 100vw;
   position: fixed;
@@ -17,6 +20,7 @@ nav {
   background: linear-gradient(90deg, #F2709C 30.42%, #FF9472 117.42%);
   display: flex;
   align-items: center;
+
  
 }
 
@@ -43,7 +47,8 @@ main {
   width: 75%;
   height: 100%;
   padding-left: 2rem;
-  background-color: rgba(255, 255, 255, 0.6);
+  padding-right: 2rem;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 
