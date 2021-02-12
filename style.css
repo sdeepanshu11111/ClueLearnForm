@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+
+
+nav {
+  width: 100vw;
+  position: fixed;
+  height: 10vh;
+  background: linear-gradient(90deg, #F2709C 30.42%, #FF9472 117.42%);
+  display: flex;
+  align-items: center;
+ 
+}
+
+
+.logo {
+  padding-left: 2rem;
+}
+
+.logo img {
+  height: 50px;
+}
+
+main {
+  padding-top: 10vh;
+  min-height: 100vh;
+  background-color: #FEEBDD;
+  background-image: url('mask_group_1.png');
+  
+}
+
+.firstlayer {
+  padding-top: 2rem;
+  margin: auto;
+  width: 75%;
+  height: 100%;
+  padding-left: 2rem;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+.basicdetails {
+  display: flex;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.basicdetails h1 {
+ 
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #656565;
+  margin-left: 1rem;
+ 
+}
+
+
+.basicdetails h1 span {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #FA6F9E;
+}
+
+.name {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.name h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #656565;
+  margin-left: 1rem;
+}
+
+input {
+  font-family: 'Cormorant Garamond', serif;
+  margin-left: 4rem;
+  width: 55%;
+
+  height: 3rem;
+  font-size: 2rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  font-weight: 600;
+  color: rgb(82, 82, 82);
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+  
+}
+
+::placeholder {
+  opacity: 0.7  ;
+}
+input[name="Name"]{
+  margin-left: 4.6rem;
+  margin-bottom: 5rem;
+  width: 25%;
+  margin-top: 0;
+  
+}
+
+.mainImage {
+  
+  /* margin: auto; */
+  height: 350px;
+  width: 50%;
+  background-color: rgb(241, 241, 241);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  margin-bottom: 5rem;
+  background-size: cover;
+  padding-top: 1.2rem;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+
+.mainImage img {
+  height: 85%;
+  width: 95%;
+  display: block;
+  margin: auto;
+
+}
+
+.mainImage h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  padding-top: 1.5rem;
+  font-weight: 400;
+  color: #656565;
+}
+
+.question h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  padding-top: 1.5rem;
+  font-weight: 400;
+  width: 90%;
+  color: #656565;
+}
+
+.question {
+  display: flex;
+}
+
+.circle {
+
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  cursor: pointer;  
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color:lightgray;
+  background-image: url('lightoff.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+
+.circle:hover {
+  background-image: url('lighton.png');
+  background-color: white;
+}
+
+
+.ac{
+   background-image: url('lighton.png');
+  background-color: white;
+}
+
+.clue {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  padding-top: 0.5rem;
+  font-weight: 400;
+  max-width: 90%;
+  color: #F2709C;
+}
+
