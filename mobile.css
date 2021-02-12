@@ -1,0 +1,75 @@
+@media screen and (max-width: 600px) {
+
+
+  .firstlayer {
+    width: 90%;
+  }
+  
+
+
+  input[name="Name"]{
+    margin-left: 4rem;
+    margin-bottom: 5rem;
+    width: 60%;
+    margin-top: 0;
+    
+  }
+  
+  .mainImage {
+  
+    
+    height: 400px;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    margin-bottom: 5rem;
+    background-size: cover;
+    padding-top: 1.2rem;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+  }
+
+  .mainImage img {
+    height: 85%;
+    width: 95%;
+    display: block;
+    margin: auto;
+  
+  }
+
+
+  input {
+    font-family: 'Cormorant Garamond', serif;
+    margin-left: 0rem;
+    width: 85%;
+  
+    height: 3rem;
+    font-size: 2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-weight: 600;
+    color: rgb(82, 82, 82);
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    
+  }
+
+
+  .question h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    padding-top: 1.5rem;
+    font-weight: 400;
+    width: 90%;
+    color: #656565;
+  }
+
+  .clue {
+    font-size: 1.6;
+  }
+
+  
+  
+  }
