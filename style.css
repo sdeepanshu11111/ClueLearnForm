@@ -48,7 +48,7 @@ main {
   height: 100%;
   padding-left: 2rem;
   padding-right: 2rem;
-  background-color: rgba(255, 255, 255, 0.7);
+  background:none;
 }
 
 
@@ -61,7 +61,6 @@ main {
 
 .basicdetails h1 {
  
-  font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
   color: #656565;
@@ -79,6 +78,7 @@ main {
 .name {
   margin-top: 5rem;
   display: flex;
+  font-family: 'Roboto', sans-serif;
   align-items: center;
 }
 
@@ -104,18 +104,22 @@ input {
   font-weight: 600;
   color: rgb(82, 82, 82);
   margin-bottom: 5rem;
-  margin-top: 1rem;
+  margin-top: 2.5rem;
+  border-bottom: 1px solid gray;
+  background:none;
+
   
 }
 
 ::placeholder {
-  opacity: 0.7  ;
+  opacity: 0.5  ;
+  background: none;
 }
 input[name="Name"]{
   margin-left: 4.6rem;
   margin-bottom: 5rem;
   width: 25%;
-  margin-top: 0;
+  margin-top: 2rem;
   
 }
 
@@ -151,11 +155,12 @@ input[name="Name"]{
 }
 
 .question h1 {
+  line-height: 30px;
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
   padding-top: 1.5rem;
   font-weight: 400;
-  width: 90%;
+  width: 80%;
   color: #656565;
 }
 
@@ -164,7 +169,7 @@ input[name="Name"]{
 }
 
 .circle {
-
+  margin: auto;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   cursor: pointer;  
   height: 40px;
@@ -196,5 +201,7 @@ input[name="Name"]{
   font-weight: 400;
   max-width: 90%;
   color: #F2709C;
+  padding: 1rem;
+  padding-left: 0;
 }
 
