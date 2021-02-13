@@ -48,7 +48,7 @@ main {
   height: 100%;
   padding-left: 2rem;
   padding-right: 2rem;
-  background:none;
+  background:rgb(255 255 255 / 45%);
 }
 
 
@@ -168,6 +168,29 @@ input[name="Name"]{
   display: flex;
 }
 
+
+.tooltiptext {
+  font-family: 'Roboto', sans-serif;
+  visibility: hidden;
+  text-align: center;
+  /* width: 300px; */
+ height: auto;
+width: auto;
+  background: wheat;
+  color: #656565;
+
+
+  border-radius: 6px;
+  padding: 7px 7px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 120%;
+  left: -230%;
+}
+
+
 .circle {
   margin: auto;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
@@ -180,6 +203,8 @@ input[name="Name"]{
   background-position: center;
   background-repeat: no-repeat;
   background-size: 30px;
+  position: relative;
+  display: inline-block;
 }
 
 
@@ -188,7 +213,15 @@ input[name="Name"]{
   background-color: white;
 }
 
+.circle:hover .tooltiptext {
+visibility: visible;
+font-size: 1.6rem;
+}
 
+.ac2 {
+  visibility: visible;
+  font-size: 1.6rem;
+}
 .ac{
    background-image: url('lighton.png');
   background-color: white;
