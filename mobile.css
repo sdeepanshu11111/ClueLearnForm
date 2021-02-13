@@ -101,6 +101,18 @@
     padding-left: 0;
   }
 
+  .ac{
+    background-image: url('lighton.png');
+   background-color: white;
+  }
+  
+  
+  .ac2 {
+    visibility: visible;
+    font-size: 1.6rem;
+  }
+  
+
   
   
   }
