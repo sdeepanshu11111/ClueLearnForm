@@ -14,6 +14,7 @@
 
 
 nav {
+  z-index: 1111;
   width: 100vw;
   position: fixed;
   height: 10vh;
@@ -162,6 +163,7 @@ input[name="Name"]{
   font-weight: 400;
   width: 80%;
   color: #656565;
+  padding-right: 3rem;
 }
 
 .question {
@@ -188,6 +190,9 @@ width: auto;
   z-index: 1;
   top: 120%;
   left: -230%;
+ 
+  
+
 }
 
 
@@ -205,6 +210,7 @@ width: auto;
   background-size: 30px;
   position: relative;
   display: inline-block;
+  padding: 1rem;
 }
 
 
@@ -213,16 +219,41 @@ width: auto;
   background-color: white;
 }
 
+.google {
+ 
+  margin: auto;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  cursor: pointer;  
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color:lightgray;
+  background-image: url('google.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 28px;
+  position: relative;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.google:hover {
+  background-color: white !important;
+  background-image: url('google.png');
+}
+
 .circle:hover .tooltiptext {
 visibility: visible;
+/* animation-name: deep;
+animation-duration: 0.1s; */
 font-size: 1.6rem;
 }
 
-.ac{
+/* .ac{
   background-image: url('lighton.png');
  background-color: white;
 }
-
+ */
 
 .ac2 {
   visibility: visible;
@@ -240,3 +271,9 @@ font-size: 1.6rem;
   padding-left: 0;
 }
 
+.fifty {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

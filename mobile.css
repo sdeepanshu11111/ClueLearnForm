@@ -93,7 +93,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 25px;
+    padding: 2rem;
   }
+
 
   .clue {
     font-size: 1.4rem;
@@ -101,10 +103,7 @@
     padding-left: 0;
   }
 
-  .ac{
-    background-image: url('lighton.png');
-   background-color: white;
-  }
+  
   
   
   .ac2 {
@@ -113,6 +112,34 @@
   }
   
 
-  
+  .fifty {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google {
+
+  margin: auto;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  cursor: pointer;  
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color:lightgray;
+  background-image: url('google.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  position: relative;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.google:hover {
+  background-color: white !important;
+  background-image: url('google.png');
+}
   
   }
